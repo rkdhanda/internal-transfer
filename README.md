@@ -25,7 +25,7 @@ This system handles account creation, balance queries, and financial transaction
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd internal-transfers
+cd internal-transfer
 
 # Start all services (PostgreSQL + API)
 make docker-up
