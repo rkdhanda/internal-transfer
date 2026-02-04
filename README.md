@@ -27,6 +27,9 @@ This system handles account creation, balance queries, and financial transaction
 git clone <repository-url>
 cd internal-transfer
 
+# Create a .env file based on the example
+cp .env.example .env
+
 # Start all services (PostgreSQL + API)
 make docker-up
 
